@@ -11,6 +11,7 @@ namespace NPieShop.Controllers
     [Authorize]
     public class OrderController : Controller
     {
+
         private readonly IOrderRepository _orderRepository;
         private readonly ShoppingCart _shoppingCart;
 
