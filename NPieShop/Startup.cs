@@ -18,6 +18,7 @@ namespace NPieShop
     {
         public Startup(IConfiguration configuration)
         {
+
             Configuration = configuration;
         }
 
